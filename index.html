@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+   <link rel="stylesheet" href="style.css">
+   <title>Portfolio</title>
+   <script src="./jquery.js"></script>
+</head>
+<body>
+   <header class="header">
+       <div class="container">
+         
+       <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="user_content ">
+                <!-- Logo -->
+                <div class="user_name">ASdesign</div>
+                <div class="user_prof">Design webových stránek</div>
+            </div>
+
+            <div class="collapse navbar-collapse mt-2" id="navbarTogglerDemo01">
+                <!-- Navigation list -->
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav_link" href="#" data-scroll="#portfolio">portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav_link" href="#" data-scroll="#about_me">o mně</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav_link" href="#" data-scroll="#technology">technologie</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav_link" href="mailto:mail">kontakt</a>
+                    </li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+   </header>
+
+
+   <div class="intro">
+       <div class="container">
+           <div class="intro_inner">
+               <div class="intro_content">
+                   <h2 class="intro_subtitle">Vítejte</h2>
+                   <h1 class="intro_title">Já Anastassiya</h1>
+                   <div class="intro_text">Vítejte na mém profesionálním webovém profilu!</div>
+
+
+                   <div class="social">
+                       <a class="social_link" href="https://www.youtube.com/">
+                           <img src="images/Group 1.png" alt="">
+                       </a>
+                       <a class="social_link" href="https://twitter.com/?lang=cs">
+                           <img src="images/Group 3.png" alt="">
+                       </a>
+                       <a class="social_link" href="https://www.whatsapp.com/?lang=cs">
+                           <img src="images/Group 4.png" alt="">
+                       </a>
+                   </div>
+
+
+                   <button class="btn" type="button" data-modal="#modal_cv">Ukázat CV</button>
+               </div>
+
+
+               <img class="intro_photo" src="images/8machine-_-FD-pH18vrOY-unsplash (1).jpg" alt="">
+           </div>
+       </div>
+   </div>
+
+
+   <div class="potrfolio" id="portfolio">
+       <div class="container">
+           <h3 class="text_center">PORTFOLIO</h3>
+           
+           <div class="portfolio row">
+            <div class="col col-md-6 col-sm-12 col-lg-4">
+                <div class="work ">
+                    <img class="work_photo" src="images/netw.png" alt="">
+                    <div class="work_content">
+                        <div class="work_cat">UX výzkum a design proces</div>
+                        <div class="work_title">
+                            Aplikace pro networking
+                            <div class="work_date">2021</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+               
+
+               <div class="col col-md-6 col-sm-12 col-lg-4">
+                    <div class="work">
+                        <img class="work_photo" src="images/head.png" alt="">
+                        <div class="work_content">
+                            <div class="work_cat">Návrh redesignu</div>
+                            <div class="work_title">
+                                Webová stránka sluchátek
+                                <div class="work_date">2021</div>
+                            </div>
+                        </div>
+                    </div>
+               </div>
+               
+
+               <div class="col col-md-6 col-sm-12   col-lg-4">
+                    <div class="work ">
+                        <img class="work_photo" src="images/muf.png" alt="">
+                        <div class="work_content">
+                            <div class="work_cat">Návrh designu homepage</div>
+                            <div class="work_title">
+                                Webová stránka muffinů
+                                <div class="work_date">2021</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+           </div>
+       </div>
+   </div>
+
+
+   <div class="about_me" id="about_me">
+       <div class="container">
+           <div class="about_inner row">
+            <div class="col col-lg-6 col-md-12 col-sm-12">
+                <img class="about_photo" src="images/8machine-_-rLsRLQLZa7E-unsplash (1).jpg" alt="">
+
+            </div>
+               <div class="about_content col col-lg-4 col-md-12 col-sm-12">
+                   <h3 class="about_title">O mně</h3>
+                   <div class="about_text">
+                       <p>Vítejte na mém profesionálním webovém profilu! Jsem kreativní designér s vášní pro vytváření unikátních a vizuálně poutavých digitálních zážitků. Můj přístup k designu spočívá v propojení moderních trendů s individuálními potřebami klientů, abych vytvořil esteticky přitažlivé a funkční vizuální prvky.</p>
+                       <p>V mé práci se snažím vnášet originalitu a inovace do každého projektu. Prozkoumejte mé portfolio a přesvědčte se o různorodosti mého umění, které se skládá z webového designu, grafiky a dalších digitálních vizuálních prvků.</p>
+                       <p>Pokud hledáte kreativního partnera, který vám pomůže vizualizovat vaše myšlenky a představy, jsem tu pro vás. Dejte mi vědět o svém projektu, a společně můžeme vytvořit něco opravdu výjimečného.
+                           Těším se na příležitost spolupracovat s vámi a přinést vaše nápady k životu!</p>
+                   </div>
+
+
+                   <button class="btn" type="button" data-modal="#modal_resume">Ukázat CV</button>
+               </div>
+           </div>
+       </div>
+   </div>
+
+
+   <div class="reviews">
+       <div class="container">
+           <div class="reviews_inner">
+               <div class="reviews_text">
+                   <p>Profesionální přístup, rychlá odezva. Celý proces od prvního konceptu až po finální implementaci byl hladký a dobře řízený.</p>
+                   <p>Komunikace byla transparentní a efektivní. Každý krok byl důkladně vysvětlen a tým byl vždy otevřený ke změnám a zdokonalení. Moc doporučuji!</p>
+               </div>
+
+
+               <div class="reviews_author">
+                   <img src="images/Image-60.png" alt="">
+                   <div class="reviews_company">Anna</div>
+                   <div class="reviews_name">recenze</div>
+               </div>
+           </div>
+       </div>
+   </div>
+
+
+   <div class="technologies" id="technology">
+       <div class="container">
+           <h3 class="text_center margin">Moje technologie</h3>
+           <div class="subtitle">Využívám technologie pro tvorbu webových stránek, jako Figma, Adobe a Canva. S hezkým designem ve Figmě, kreativním zpracováním v Adobe a rychlým vytvářením grafiky pomocí Canva můžu poskytnout nejmodernější a vizuálně oslnivé online zážitky.</div>
+      
+           <div class="technologies_inner row">
+            <div class="col col-lg-4 col-md-6 col-sm-12">
+                <div class="technology">
+                    <img class="technology_photo" src="images/Group 2.png" alt="">
+ 
+ 
+                    <div class="technology_content">
+                        <h4 class="technology_name" >Canva</h4>
+                        <div class="technology_cat">Designová platforma</div>
+                        <div class="technology_text">
+                            <p>Grafický Design, Editace Fotografií, Digitální Ilustrace.</p>
+                        </div>
+                    </div>
+                   
+                </div>
+ 
+            </div>
+            <div class="col col-lg-4 col-md-6 col-sm-12">
+                <div class="technology">
+                    <img class="technology_photo" src="images/Icon (1).png" alt="">
+                    <div class="technology_content">
+                        <h4 class="technology_name" >Figma</h4>
+                        <div class="technology_cat">Designová platforma</div>
+                        <div class="technology_text">
+                            <p>Webové Stránky a Aplikace, UI/UX Design, Branding a Grafický Design, Prototypy a Interaktivní Prezentace, Sdílení a Spolupráce, Prezentace a Wireframy.</p>
+                        </div>
+                    </div>
+ 
+ 
+                </div>
+ 
+            </div>
+            <div class="col col-lg-4 col-md-6 col-sm-12">
+                <div class="technology">
+                    <img class="technology_photo" src="images/Icon copy 2.png" alt="">
+ 
+ 
+                    <div class="technology_content">
+                        <h4 class="technology_name" >Adobe</h4>
+                        <div class="technology_cat">Designová platforma</div>
+                        <div class="technology_text">
+                            <p>Grafický Design, Editace Fotografií, Digitální Ilustrace.</p>
+                        </div>
+                    </div>
+ 
+ 
+                </div>
+            </div>
+   
+           </div>
+
+
+           <div class="link">
+               <a class="technology_link" href="https://www.behance.net/">Ukázat více</a>
+           </div>
+       </div>
+   </div>
+
+   <footer class="footer">
+       <div class="container">
+           <div class="footer_inner">
+               <div class="footer_info">
+                   <div class="footer_copyright">
+                       &copy; date and name
+                   </div>
+
+
+                   <div class="footer_social">
+                       <a class="footer_link" href="https://www.youtube.com/">
+                           <img src="images/lin fot.png" alt="">
+                       </a>
+                       <a class="footer_link" href="https://twitter.com/?lang=cs">
+                           <img src="images/be fot.png" alt="">
+                       </a>
+                       <a class="footer_link" href="https://www.whatsapp.com/?lang=cs">
+                           <img src="images/mail fot.png" alt="">
+                       </a>
+                   </div>
+               </div>
+
+
+               <div class="footer_nav">
+                   <a class="footer_nav_link" href="#" data-scroll="#portfolio">portfolio</a>
+                   <a class="footer_nav_link" href="#" data-scroll="#about_me">o mně</a>
+                   <a class="footer_nav_link" href="#" data-scroll="#technology">technologie</a>
+                   <a class="footer_nav_link" href="mailto:mail">kontakt</a>
+               </div>
+           </div>
+       </div>
+   </footer>
+
+
+   <div class="modal" id="modal_document">
+       <div class="modal_dialog">
+           <h3 class="modal_title">Document</h3>
+           <img class="modal_photo" src="images/cv.png" alt="">
+           <a class="btn btn_edit btn_modal" href="images/8machine-_-FD-pH18vrOY-unsplash (1).jpg" download>Download</a>
+       </div>
+   </div>
+   <script src="app.js"></script>
+</body>
+</html>
+
